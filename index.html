@@ -3,32 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All About Tennis</title>
+    <title>Tennis World - A Dark Themed Insight</title>
     <style>
+        /* Basic Dark Theme Styling */
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a1a; /* Very dark gray */
+            color: #e0e0e0; /* Light gray for main text */
+            margin: 0;
+            padding: 20px;
             line-height: 1.6;
-            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Align to top, not center vertically */
+            min-height: 100vh; /* Ensure body takes full viewport height */
+            box-sizing: border-box; /* Include padding in element's total width and height */
         }
+
+        /* Container for content */
+        main {
+            max-width: 800px;
+            width: 100%;
+            background-color: #282828; /* Slightly lighter dark gray for content box */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
+            margin-top: 50px; /* Space from top */
+            margin-bottom: 50px; /* Space from bottom if content is short */
+        }
+
+        /* Heading Styling */
         h1 {
-            color: #0056b3;
+            color: #8aff8a; /* A bright, vibrant green, often associated with tennis */
+            font-size: 2.5em; /* Larger heading */
+            margin-bottom: 25px;
+            text-align: center;
+            border-bottom: 2px solid #5a5a5a; /* Subtle separator */
+            padding-bottom: 15px;
         }
+
+        /* Paragraph Styling */
         p {
-            margin-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            text-align: justify; /* Justify text for a cleaner look */
+        }
+
+        /* Emphasis/Highlight */
+        strong {
+            color: #a0ffb0; /* Slightly brighter green for emphasis */
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            main {
+                padding: 25px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            h1 {
+                font-size: 2em;
+                margin-bottom: 20px;
+            }
+            p {
+                font-size: 1em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+            main {
+                padding: 20px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            h1 {
+                font-size: 1.7em;
+            }
         }
     </style>
 </head>
 <body>
+    <main>
+        <h1>The Elegant Dynamic of Tennis: A Global Symphony of Skill and Strategy</h1>
 
-    <h1>The Exciting World of Tennis</h1>
+        <p>
+            Tennis, often celebrated as the <strong>"sport of kings"</strong>, is a captivating racquet sport played between two players (singles) or two teams of two players each (doubles). Originating in Birmingham, England, in the late 19th century, it has since evolved into a globally revered athletic pursuit, demanding a unique blend of physical prowess, strategic thinking, and profound mental fortitude from its competitors.
+        </p>
 
-    <p>
-        Tennis is a racket sport that can be played individually against a single opponent (singles) or between two teams of two players each (doubles). 
-        Players use a racket strung with cord to strike a hollow rubber ball over a net into the opponent's court. 
-        The objective of the game is to maneuver the ball in such a way that the opponent is unable to play a valid return. 
-        Originating in Birmingham, England, in the late 19th century as "lawn tennis", it has evolved into a global sport with millions of players and fans, featuring major tournaments like Wimbledon, the French Open, the US Open, and the Australian Open.
-    </p>
+        <p>
+            The game unfolds on a rectangular court, precisely divided by a net. Players wield specially strung racquets to strike a hollow rubber ball over the net, aiming to land it within the opponent's designated court area. The objective is simple yet challenging: to hit the ball in such a manner that the adversary cannot make a valid return, thereby scoring a point. This seemingly straightforward premise conceals a world of intricate tactics, from the thunderous power of a well-placed serve to the deceptive finesse of a perfectly executed drop shot or the dizzying spin of a forehand cross-court. Every rally is a miniature, high-stakes battle of wits and athleticism, requiring split-second decisions and precise execution.
+        </p>
 
+        <p>
+            Beyond its engaging gameplay, tennis is steeped in rich history and tradition, epitomized by its four iconic Grand Slam tournaments: <strong>Wimbledon</strong> (on grass), the <strong>US Open</strong> (on hard court), the <strong>French Open</strong> (on clay), and the <strong>Australian Open</strong> (on hard court). These tournaments attract millions of spectators worldwide and are the pinnacle of professional tennis. The sport has produced a pantheon of legendary figures—like Roger Federer, Serena Williams, Rafael Nadal, and Novak Djokovic—whose rivalries and record-breaking achievements have not only pushed the boundaries of athletic possibility but have also inspired generations. Tennis, in essence, is a beautiful and brutal dance of power, precision, and psychology that continues to captivate and thrill audiences across the globe.
+        </p>
+    </main>
 </body>
 </html>
