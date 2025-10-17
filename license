@@ -3,69 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App Information & License</title>
+    <title>App License & Information</title>
     <style>
         /* Dark Theme Styles */
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #1a1a1a; /* Very dark grey background */
-            color: #f0f0f0; /* Light grey text */
+            background-color: #1a1a1a; /* Very dark background */
+            color: #e0e0e0; /* Light grey text color */
             line-height: 1.6;
             display: flex;
             justify-content: center;
             align-items: flex-start; /* Align content to the top */
-            min-height: 100vh; /* Ensure body takes full viewport height */
+            min-height: 100vh; /* Full viewport height */
         }
 
         .container {
-            max-width: 800px;
-            width: 90%; /* Responsive width */
-            margin: 30px auto; /* Margin top/bottom, auto left/right for centering */
-            padding: 30px;
-            background-color: #2a2a2a; /* Slightly lighter dark grey for content box */
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+            max-width: 900px;
+            width: 100%;
+            margin: 40px auto;
+            background-color: #242424; /* Slightly lighter background for content area */
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
         }
 
         h1, h2, h3 {
-            color: #90caf9; /* A light blue for headings */
+            color: #4CAF50; /* Accent color (green) */
             margin-top: 0;
-            border-bottom: 1px solid #444; /* Subtle separator */
-            padding-bottom: 10px;
-            margin-bottom: 20px;
         }
 
-        p {
+        h1 {
+            font-size: 2.2em;
+            border-bottom: 2px solid #3a3a3a;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-top: 40px;
             margin-bottom: 15px;
         }
 
-        .license-section {
-            margin-top: 40px;
-            border-top: 1px solid #444;
-            padding-top: 30px;
-        }
-
-        .license-text {
-            background-color: #0f0f0f; /* Even darker for the license code block */
-            color: #d0d0d0; /* Slightly desaturated light grey */
-            padding: 20px;
-            border-radius: 5px;
-            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
-            font-size: 0.9em;
-            overflow-x: auto; /* Enable horizontal scrolling for long lines */
-            white-space: pre-wrap; /* Preserve whitespace and wrap long lines */
-            word-wrap: break-word; /* Break words if line is still too long */
+        p {
+            margin-bottom: 1em;
         }
 
         a {
-            color: #82b1ff; /* Light blue for links */
+            color: #64B5F6; /* Link color (light blue) */
             text-decoration: none;
         }
 
         a:hover {
             text-decoration: underline;
+        }
+
+        .license-content {
+            background-color: #2b2b2b;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto; /* Ensures long lines can be scrolled horizontally */
+            font-family: 'Consolas', 'Courier New', monospace; /* Monospaced font for code/license */
+            font-size: 0.9em;
+            color: #bbbbbb;
+            white-space: pre-wrap; /* Ensures text wraps within the pre tag */
+            word-wrap: break-word; /* Breaks long words if necessary */
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #3a3a3a;
+            margin: 50px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding-top: 30px;
+            margin-top: 40px;
+            border-top: 1px solid #3a3a3a;
+            color: #888888;
+            font-size: 0.85em;
+        }
+
+        .placeholder-note {
+            background-color: #333;
+            border-left: 5px solid #ffeb3b; /* Yellow accent */
+            padding: 15px;
+            margin-top: 25px;
+            border-radius: 5px;
+            color: #fff8e1; /* Lighter yellow text */
         }
     </style>
 </head>
@@ -73,42 +101,54 @@
     <div class="container">
         <h1>App Information & License</h1>
 
-        <section class="tennis-section">
-            <h2>The Grand Slam of Sports: An Ode to Tennis</h2>
+        <section>
+            <h2>The Elegant Battleground: A Deep Dive into Tennis</h2>
             <p>
-                Tennis, often dubbed the "sport of a lifetime," is a dynamic and elegant racquet sport enjoyed by millions worldwide. Played on various surfaces like grass, clay, and hard courts, it demands a unique blend of athleticism, strategy, and mental fortitude. From the powerful serves and blistering forehands to the delicate drop shots and intricate volleys, every point is a miniature battle of wits and skill. Its rich history, iconic tournaments like Wimbledon, the French Open, and the US Open, and legendary players who have transcended the sport make tennis a perpetually captivating spectacle. It's a game that challenges both body and mind, rewarding precision, perseverance, and a deep understanding of angles and ball spin.
+                Tennis, often hailed as the "sport of kings" and a global phenomenon, is an intricate dance of power, precision, and strategy played across various surfaces from the grass courts of Wimbledon to the red clay of Roland Garros. It's a sport that demands peak physical conditioning—sprint speed, endurance, and explosive strength—alongside acute mental fortitude and tactical genius. Each point is a mini-battle, requiring players to anticipate, adapt, and execute under pressure. Beyond the Grand Slams and professional circuits, tennis offers a lifelong pursuit for enthusiasts of all ages, fostering discipline, sportsmanship, and a profound appreciation for individual skill and competitive spirit. It truly is a captivating spectacle, blending raw athleticism with cerebral play.
             </p>
         </section>
 
-        <section class="license-section">
+        <hr>
+
+        <section>
             <h2>Application License</h2>
-            <div class="license-text">
-                MIT License
-                <br><br>
-                Copyright (c) [year] [fullname]
-                <br><br>
-                Permission is hereby granted, free of charge, to any person obtaining a copy
-                of this software and associated documentation files (the "Software"), to deal
-                in the Software without restriction, including without limitation the rights
-                to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-                copies of the Software, and to permit persons to whom the Software is
-                furnished to do so, subject to the following conditions:
-                <br><br>
-                The above copyright notice and this permission notice shall be included in all
-                copies or substantial portions of the Software.
-                <br><br>
-                THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-                IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-                FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-                AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-                LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-                OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-                SOFTWARE.
-            </div>
-            <p style="margin-top: 20px;">
-                For more details, please contact the developer at <a href="mailto:your.email@example.com">your.email@example.com</a>.
+            <p>
+                This application is provided under the terms of the MIT License, a permissive open-source license.
+                You are free to use, modify, and distribute this software under the conditions described below.
             </p>
+
+            <div class="license-content">
+MIT License
+
+Copyright (c) 2023-2024 [Your Company/Developer Name]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+            </div>
+            <div class="placeholder-note">
+                <strong>Important:</strong> Please replace <code>[Your Company/Developer Name]</code> with the actual copyright holder information (e.g., "John Doe" or "Acme Corp."). Update the copyright year(s) if necessary.
+            </div>
         </section>
+
+        <footer>
+            <p>&copy; 2024 [Your App Name/Company]. All rights reserved.</p>
+            <p>For more information, visit <a href="[YourAppWebsiteURL]">YourAppWebsite.com</a></p>
+        </footer>
     </div>
 </body>
 </html>
